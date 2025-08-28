@@ -1,0 +1,14 @@
+pymssql
+pika
+pandas
+selenium
+ddddocr
+pyautogui
+pyperclip
+uiautomation
+opencv-python
+python-dateutil
+Pillow
+pyodbc
+clickhouse-driver
+requests
