@@ -14,10 +14,11 @@ services:
       - LOG_LEVEL=${LOG_LEVEL:-INFO}                     # 日志级别
       - PYTHONUNBUFFERED=1
     volumes:
+      - .:/app
       # 数据持久化
-      - ./data:/app/data
+      #- ./data:/app/data
       # 日志文件挂载
-      - ./logs:/app/logs
+      #- ./logs:/app/logs
       # 如果需要编辑任务脚本，可以取消注释下面的行
       # - ./task1:/app/task1
       # - ./task2:/app/task2

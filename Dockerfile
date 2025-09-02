@@ -32,12 +32,6 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 复制应用文件
-COPY task1/ ./task1/
-COPY task2/ ./task2/
-COPY task3/ ./task3/
-COPY task4/ ./task4/
-COPY scripts/ ./scripts/
 
 # 创建日志和数据目录
 RUN mkdir -p /app/logs /app/data
